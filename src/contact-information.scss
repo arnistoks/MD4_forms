@@ -1,0 +1,59 @@
+.box__contact-information {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 104px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 875px;
+    display: flex;
+}
+
+.form__contact-information {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.box__help {
+    width: 100%;
+    max-width: 215px;
+    background-color: #651FFF;
+    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 0px 0px 10px;
+    color: #FFFFFF;
+    padding: 45px 16px 45px 16px;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.select {
+    width: 100%;
+    padding: 12px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    color: #000000;
+    border-color: #FAFAFA;
+    border-style: solid;
+  }
+  
+  .select__label {
+    width: 100%;
+  }
+
+  .support {
+      margin-top: 16px;
+      margin-bottom: 16px;
+  }
+
+  .contacts {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }

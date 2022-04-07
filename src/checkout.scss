@@ -1,0 +1,76 @@
+.box__checkout {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 104px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 875px;
+    display: flex;
+}
+
+.checkout__box {
+    width: 40%;
+}
+
+.checkout__delivery {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery__box {
+    display: flex;
+    gap: 32px;
+}
+
+.checkout__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.payment__row {
+    display: flex;
+    gap: 8px;
+}
+
+.card__box {
+    display: flex;
+    gap: 8px;
+}
+
+.checkout__line {
+    background-color: #ECECEE;
+    height: 1px;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.title__medium {
+    width: 100%;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    padding-bottom: 16px;
+}
+
+.title__small {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5A5761;
+}

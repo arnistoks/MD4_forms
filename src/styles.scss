@@ -1,3 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@import "default.scss";
+
+@import "sign-in.scss";
+
+@import "contact-us.scss";
+
+@import "contact-information.scss";
+
+@import "checkout.scss";
+
+@media (max-width: 800px) {
+  .form__row--grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__contact-information {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .payment__row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .checkout__line {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    padding: 16px;
+  }
+
+  .box__help {
+    display: none;
+  }
+
+  .checkout__row {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .checkout__box {
+    width: 100%;
+  }
+
+  .checkout__delivery {
+    width: 100%;
+  }
+}
+
 body {
-  background-color: antiquewhite;
+  background-color: lightgrey;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #130F1C;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #000000;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.box {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 104px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  line-height: 24px;
 }

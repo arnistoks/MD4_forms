@@ -1,0 +1,146 @@
+.box__sign-in {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+.form__agree {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 16px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #FD7918;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #FD7918;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+  }
+  
+  .slider.round {
+    border-radius: 28px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.switch__info {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.button__sign-in {
+    background-color: #651FFF;
+    padding: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+    border: 0;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #4b09da;
+        box-shadow: inset 0 0 5px 5px #651FFF;
+    }
+
+    &:active {
+        background-color: #651FFF;
+        box-shadow: inset 0 0 5px 5px #4b09da;
+    }
+}
+
+.form__href {
+    text-align: center;
+    margin-top: 16px;
+    color: #651FFF;
+
+    &:hover {
+        color: #4b09da;
+    }
+
+    &:active {
+        color: #5A5761;
+    }
+}
+
+.form__line {
+    background-color: #ECECEE;
+    height: 2px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.form__continue {
+    text-align: center;
+    color: #5A5761;
+}
+
+.form__button--box {
+    display: flex;
+    gap: 16px;
+}
+
+.button__continue-with {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #ECECEE;
+    border-radius: 5px;
+    padding: 12px 12px 12px 12px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    &:active {
+        box-shadow: none;
+    }
+  }
